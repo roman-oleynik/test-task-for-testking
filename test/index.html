@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test task</title>
+    <link rel="stylesheet" href="reset_css.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__row-with-logo">
+                <div class="row-with-logo__logo">
+                    <span class="logo logo_blue">TEST</span>
+                    <span class="logo logo_violet">Exam</span>
+                </div>
+                <div class="row-with-logo__search-bar">
+                    <input type="text" placeholder="Enter your text" class="search-bar__text-input">
+                    <input type="button" value="Search" class="search-bar__search-button">                    
+                </div>
+                <div class="row-with-logo__navigation">
+                    <div class="navigation-item navigation-item-login">
+                        <img src="img/login.png" alt="login-picture" class="navigation-item__picture">
+                        <span class="navigation-item__text">Login/Register</span>
+                    </div>
+                    <div class="navigation-item navigation-item-faq">
+                        <img src="img/faq.png" alt="login-picture" class="navigation-item__picture">
+                        <span class="navigation-item__text">FAQ</span>
+                    </div>
+                    <div class="navigation-item navigation-item-contact">
+                        <img src="img/contact.png" alt="login-picture" class="navigation-item__picture">
+                        <span class="navigation-item__text">Contact</span>
+                    </div>
+                    <div class="navigation-item navigation-item-cart">
+                        <img src="img/cart.png" alt="login-picture" class="navigation-item__picture">
+                        <span class="navigation-item__text">Cart</span>
+                    </div>
+                </div>
+            </div>
+            <nav class="header__site-navigation">
+                <ul class="site-navigation-list">
+                    <li class="site-navigation-list__list-item">
+                        <div class="list-item-container">
+                            <img src="img/home.png" alt="home" class="list-item-container__picture">
+                            <span class="list-item-container__text">HOME</span>
+                        </div>
+                    </li>
+                    <li class="site-navigation-list__list-item">
+                        <div class="list-item-container">
+                            <img src="img/subscription.png" alt="subscription" class="list-item-container__picture">
+                            <span class="list-item-container__text">SUBSCRIPTION</span>
+                        </div>
+                    </li>
+                    <li class="site-navigation-list__list-item">
+                        <div class="list-item-container">
+                            <img src="img/new_files.png" alt="new_files" class="list-item-container__picture">
+                            <span class="list-item-container__text">NEW FILES</span>
+                        </div>
+                    </li>
+                    <li class="site-navigation-list__list-item">
+                        <div class="list-item-container">
+                            <img src="img/test_simulator.png" alt="test_simulator" class="list-item-container__picture">
+                            <span class="list-item-container__text">TEST SIMULATOR</span>
+                        </div>
+                    </li>
+                    <li class="site-navigation-list__list-item">
+                        <div class="list-item-container">
+                            <img src="img/jobs.png" alt="jobs" class="list-item-container__picture">
+                            <span class="list-item-container__text">JOBS</span>
+                        </div>
+                    </li>
+                    <li class="site-navigation-list__list-item">
+                        <div class="list-item-container">
+                            <img src="img/request_exam.png" alt="request_exam" class="list-item-container__picture">
+                            <span class="list-item-container__text">REQUEST EXAM</span>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="header__exams-navigation">
+                <div class="exams-navigation-title">PRACTICE EXAMS:</div>
+                <ul class="exams-navigation-list">
+                    <li class="exams-navigation-list__list-item">Microsoft</li>
+                    <li class="exams-navigation-list__list-item">Cisco</li>
+                    <li class="exams-navigation-list__list-item">VMware</li>
+                    <li class="exams-navigation-list__list-item">CompTIA</li>
+                    <li class="exams-navigation-list__list-item">CheckPoint</li>
+                    <li class="exams-navigation-list__list-item">Citrix</li>
+                    <li class="exams-navigation-list__list-item">ECCouncil</li>
+                    <li class="exams-navigation-list__list-item">HP</li>
+                    <li class="exams-navigation-list__list-item">IBM</li>
+                    <li class="exams-navigation-list__list-item">ISC</li>
+                    <li class="exams-navigation-list__list-item">PMI</li>
+                    <li class="exams-navigation-list__list-item">The Open Group</li>
+                    <li class="exams-navigation-list__list-item">Admission Tests</li>
+                    <li class="exams-navigation-list__list-item">View All</li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <section class="product-section">
+                <div class="product-section-container">
+                    <div class="product-section-container__image">
+                        <span class="image-label">BEST SELLER!</span>
+                    </div>
+                    <div class="product-section-container__description">
+                        <div class="description__rating-and-price">
+                            <div class="star-rating">
+                                    <input type="radio" value="1" id='rating-1' checked name="rating" class="star-input">
+                                    <label for="rating-1" class="rating-label"></label>
+                                    
+                                    <input type="radio" value="2" id='rating-2' name="rating" class="star-input">
+                                    <label for="rating-2" class="rating-label"></label>
+                                    
+                                    <input type="radio" value="3" id='rating-3' name="rating" class="star-input">
+                                    <label for="rating-3" class="rating-label"></label>
+                                    
+                                    <input type="radio" value="4" id='rating-4' name="rating" class="star-input">
+                                    <label for="rating-4" class="rating-label"></label>
+                                    
+                                    <input type="radio" value="5" id='rating-5' name="rating" class="star-input">
+                                    <label for="rating-5" class="rating-label"></label>
+                                </div>
+                            <div class="prices">
+                                <span class="price_red">$112</span>
+                                <span class="price_green">$99.85</span>
+                            </div>
+                        </div>
+                        <h2 class="description__title">Advanced CSS and Sass: Take Your CSS to the Next Level!</h2>
+                        <p class="description__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia molestias, facilis eos voluptas cumque enim aut. Possimus, ratione magni. Rerum?</p>
+                        <div class="description__info">
+                            <div class="info-content info__students">
+                                <img src="img/students.png" alt="students" class="info-picture">    
+                                <span class="info-text">3320 Students Enrolled</span>
+                            </div>
+                            <div class="info-content info__lectures">
+                                <img src="img/lectures.png" alt="lectures" class="info-picture">    
+                                <span class="info-text">97 Lectures</span>
+                            </div>
+                            <div class="info-content info__hours">
+                                <img src="img/hours.png" alt="hours" class="info-picture">    
+                                <span class="info-text">2 Hours</span>
+                            </div>
+                        </div>
+                        <input type="button" value="Add to Cart" class="description__add-to-cart">
+                    </div>
+                </div>
+            </section>
+            <section class="slider">
+                <h3 class="slider__title">Curriculum For This Course</h3>
+                <div class="slider-container">
+                    <button class="slider-container__button_left"></button>
+                    <div class="slider-container__slides-and-pagination">
+                        <div class="slider-container-slides-only">
+                            <div class="slider-slide">
+                                <div class="slide__image-container">
+                                    <span class="image-container__num">1</span>
+                                    <span class="image-container__text">Exams</span>
+                                </div>
+                                <div class="slide__desc-container">
+                                    <div class="desc-container__lectures">
+                                        <img src="img/lectures.png" alt="lectures" class="desc-container-lectures__picture">
+                                        <span class="desc-container-lectures__text">25 Lectures</span>
+                                    </div>
+                                    <div class="desc-container__time">
+                                        <img src="img/hours.png" alt="hours" class="desc-container-time__picture">
+                                        <span class="desc-container-time__text">Time 02:54:58</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-slide">
+                                <div class="slide__image-container">
+                                    <span class="image-container__num">2</span>
+                                    <span class="image-container__text">Data of Exploration</span>
+                                </div>
+                                <div class="slide__desc-container">
+                                    <div class="desc-container__lectures">
+                                        <img src="img/lectures.png" alt="lectures" class="desc-container-lectures__picture">
+                                        <span class="desc-container-lectures__text">25 Lectures</span>
+                                    </div>
+                                    <div class="desc-container__time">
+                                        <img src="img/hours.png" alt="hours" class="desc-container-time__picture">
+                                        <span class="desc-container-time__text">Time 02:54:58</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-slide">
+                                <div class="slide__image-container">
+                                    <span class="image-container__num">3</span>
+                                    <span class="image-container__text">Data Cleaning 1</span>
+                                </div>
+                                <div class="slide__desc-container">
+                                    <div class="desc-container__lectures">
+                                        <img src="img/lectures.png" alt="lectures" class="desc-container-lectures__picture">
+                                        <span class="desc-container-lectures__text">25 Lectures</span>
+                                    </div>
+                                    <div class="desc-container__time">
+                                        <img src="img/hours.png" alt="hours" class="desc-container-time__picture">
+                                        <span class="desc-container-time__text">Time 02:54:58</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-slide">
+                                <div class="slide__image-container">
+                                    <span class="image-container__num">4</span>
+                                    <span class="image-container__text">Data Cleaning 2</span>
+                                </div>
+                                <div class="slide__desc-container">
+                                    <div class="desc-container__lectures">
+                                        <img src="img/lectures.png" alt="lectures" class="desc-container-lectures__picture">
+                                        <span class="desc-container-lectures__text">25 Lectures</span>
+                                    </div>
+                                    <div class="desc-container__time">
+                                        <img src="img/hours.png" alt="hours" class="desc-container-time__picture">
+                                        <span class="desc-container-time__text">Time 02:54:58</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-slide">
+                                <div class="slide__image-container">
+                                    <span class="image-container__num">5</span>
+                                    <span class="image-container__text">Data Cleaning 3</span>
+                                </div>
+                                <div class="slide__desc-container">
+                                    <div class="desc-container__lectures">
+                                        <img src="img/lectures.png" alt="lectures" class="desc-container-lectures__picture">
+                                        <span class="desc-container-lectures__text">25 Lectures</span>
+                                    </div>
+                                    <div class="desc-container__time">
+                                        <img src="img/hours.png" alt="hours" class="desc-container-time__picture">
+                                        <span class="desc-container-time__text">Time 02:54:58</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-slide">
+                                <div class="slide__image-container">
+                                    <span class="image-container__num">6</span>
+                                    <span class="image-container__text">Data Cleaning 4</span>
+                                </div>
+                                <div class="slide__desc-container">
+                                    <div class="desc-container__lectures">
+                                        <img src="img/lectures.png" alt="lectures" class="desc-container-lectures__picture">
+                                        <span class="desc-container-lectures__text">25 Lectures</span>
+                                    </div>
+                                    <div class="desc-container__time">
+                                        <img src="img/hours.png" alt="hours" class="desc-container-time__picture">
+                                        <span class="desc-container-time__text">Time 02:54:58</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-slide">
+                                <div class="slide__image-container">
+                                    <span class="image-container__num">7</span>
+                                    <span class="image-container__text">Data Cleaning 5</span>
+                                </div>
+                                <div class="slide__desc-container">
+                                    <div class="desc-container__lectures">
+                                        <img src="img/lectures.png" alt="lectures" class="desc-container-lectures__picture">
+                                        <span class="desc-container-lectures__text">25 Lectures</span>
+                                    </div>
+                                    <div class="desc-container__time">
+                                        <img src="img/hours.png" alt="hours" class="desc-container-time__picture">
+                                        <span class="desc-container-time__text">Time 02:54:58</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-pagination">
+                            <span class="slider-pagination__page slider-pagination__page-1 slider-pagination__page_active"></span>
+                            <span class="slider-pagination__page slider-pagination__page-2"></span>
+                            <span class="slider-pagination__page slider-pagination__page-3"></span>
+                        </div>
+                    </div>
+                    <button class="slider-container__button_right"></button>
+                </div>
+            </section>
+            <article class="about-course">
+                <h3 class="about-course__title">About This Course</h3>
+                <div class="about-text-container about-course__text-container">
+                    <p class="about-course__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi fugit maxime, assumenda unde placeat consequatur quam soluta sunt adipisci beatae, quia vel atque in libero deserunt, enim quaerat. Vero, exercitationem a eligendi labore ut maxime sit obcaecati velit voluptates, recusandae esse perspiciatis? Laudantium adipisci quaerat nisi doloribus nesciunt, alias sunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero quas quasi harum iusto? Iste maxime officiis ex suscipit, fuga illo tempore est facilis. Deleniti totam repudiandae hic doloribus delectus. Quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur corrupti officia, voluptates aut consequatur autem harum repudiandae commodi iure et. Impedit ipsam possimus porro accusamus praesentium ad tenetur odio eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aut, doloremque deserunt ad, tenetur, nobis excepturi animi ratione dicta quos architecto possimus ab pariatur obcaecati unde adipisci veritatis enim eius?</p>
+                </div>
+                <button class='about-course__button'>Read More</button>
+            </article>
+            <section class="download-resources">
+                <h3 class="download-resources__title">Free 70-744 Exam Questions</h3>
+                <hr class="hr">    
+                <div class="download-resources__file">
+                    <h4 class="file__title">Cisco.testexam.300-101.v2018-02-
+                            09.by.adria.309qs.pdf</h4>
+                    <div class="file-info">
+                        <div class="file-info__views-downloads">
+                            <span class="file-info__views">Views: 1 660 400</span>
+                            <span class="file-info__downloads">Downloads: 12 980</span>
+                        </div>
+                        <div class="file-info__size-votes">
+                            <span class="file-info__size">Size: 17.2 MB</span>
+                            <span class="file-info__votes">Votes: 850</span>
+                        </div>
+                    </div>
+                </div>
+                <hr class="hr">
+                <div class="download-resources__file">
+                        <h4 class="file__title">Microsoft.SY0-401.v2015-02-27 by.John.2014q.pdf</h4>
+                        <div class="file-info">
+                            <div class="file-info__views-downloads">
+                                <span class="file-info__views">Views: 2 340 400</span>
+                                <span class="file-info__downloads">Downloads: 54 910</span>
+                            </div>
+                            <div class="file-info__size-votes">
+                                <span class="file-info__size">Size: 1.2 MB</span>
+                                <span class="file-info__votes">Votes: 1850</span>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </main>
+    </div>
+	<script src="https://yastatic.net/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

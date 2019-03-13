@@ -1,0 +1,190 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 430px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .header__row-with-logo {
+        justify-content: center;
+        padding: 0 10%;
+    }
+    .navigation-item__text {
+        display: none;
+    }
+    .row-with-logo__search-bar {
+        order: 2;
+    }
+    .row-with-logo__navigation {
+        order: 1;
+        padding: 10px 0;
+    }
+    .navigation-item {
+        margin: 0 20px;
+    }
+    .row-with-logo__logo {
+        margin: 5px 0;
+    }
+    
+    .list-item-container__text {
+        display: none;
+    }
+    .exams-navigation-list {
+        overflow-x: scroll;
+        padding-left: 30px;
+    }
+    .product-section-container {
+        flex-wrap: wrap;
+    }
+    .product-section-container__image {
+        width: 100%;
+    }
+    .product-section-container__description {
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    .description__rating-and-price {
+        padding-bottom: 15px;
+    }
+    .description__desc {
+        padding: 10px 0;
+    }
+    .description__info {
+        padding-bottom: 20px;
+    }
+    .info-content {
+        padding-right: 15px;
+    }
+    .slider-container-slides-only {
+        padding: 0px 20px;
+    }
+    .download-resources__file {
+        flex-wrap: wrap;
+    }
+    .file-info {
+        padding-top: 20px;
+    }
+    .file-info__views-downloads {
+        margin-right: 5px;
+        font-size: 10px;
+    }
+    .file-info__size-votes {
+        font-size: 10px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 550px) 
+  and (max-device-width: 850px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .header__row-with-logo {
+        justify-content: center;
+        padding: 0 10%;
+    }
+    .navigation-item__text {
+        display: none;
+    }
+    .row-with-logo__search-bar {
+        order: 2;
+    }
+    .row-with-logo__navigation {
+        order: 1;
+        padding: 10px 0;
+    }
+    .navigation-item {
+        margin: 0 20px;
+    }
+    .row-with-logo__logo {
+        margin: 5px 0;
+    }
+    
+    .list-item-container__text {
+        display: none;
+    }
+    .exams-navigation-list {
+        overflow-x: scroll;
+        padding-left: 30px;
+    }
+    .product-section-container {
+        flex-wrap: wrap;
+    }
+    .product-section-container__image {
+        width: 100%;
+    }
+    .product-section-container__description {
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    .description__rating-and-price {
+        padding-bottom: 15px;
+    }
+    .description__desc {
+        padding: 10px 0;
+    }
+    .description__info {
+        padding-bottom: 20px;
+    }
+    .info-content {
+        padding-right: 15px;
+    }
+    .slider-container-slides-only {
+        padding: 0px 20px;
+    }
+    .download-resources__file {
+        flex-wrap: wrap;
+    }
+    .file-info {
+        padding-top: 20px;
+    }
+    .file-info__views-downloads {
+        margin-right: 5px;
+        font-size: 10px;
+    }
+    .file-info__size-votes {
+        font-size: 10px;
+    }
+}
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .header__row-with-logo {
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .row-with-logo__logo {
+        padding-right: 40px;
+    }
+    .row-with-logo__search-bar {
+        margin-right: 10px;
+    }
+    .list-item-container__text {
+        font-size: 12px;
+    }
+    .exams-navigation-list {
+        overflow-x: scroll;
+        padding-left: 30px;
+    }
+    .description__rating-and-price {
+        padding-bottom: 15px;
+    }
+    .description__desc {
+        padding: 10px 0;
+    }
+    .description__info {
+        padding-bottom: 20px;
+    }
+    .info-content {
+        padding-right: 15px;
+    }
+    .slider-container-slides-only {
+        padding: 0px;
+    }
+    .product-section-container__description {
+        padding-left: 20px;
+    }
+}
